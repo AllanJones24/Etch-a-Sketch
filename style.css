@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+	background-color: lavender;
+}
+
+
+#gridContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	width: 90vh;
+	height: 90vh;
+  }
+
+  .grid-item {
+	width: calc(90vh / 16 );
+	height: calc(90vh / 16);
+	background-color: white;
+	box-sizing: border-box;
+  }
+
+
+  
