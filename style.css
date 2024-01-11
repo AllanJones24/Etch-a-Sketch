@@ -8,6 +8,13 @@ body {
 	background-color: lavender;
 }
 
+#header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0;
+}
+
 #title {
 	font-weight: bold;
 	font-size: 5vh;
@@ -21,15 +28,14 @@ body {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-start;
-	width: 90vh;
-	height: 90vh;
+	width: 85vh;
+	height: 85vh;
   }
 
   .grid-item {
-	width: calc(90vh / 16 );
-	height: calc(90vh / 16);
+	/* width: calc(85vh / 16 );
+	height: calc(85vh / 16); */
 	background-color: white;
-	box-sizing: border-box;
   }
 
   .btn {
